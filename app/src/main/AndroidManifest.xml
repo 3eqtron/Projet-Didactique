@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.horizondatacontrol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DhtLearn"></activity>
+        <activity android:name=".DescriptionDht" />
+        <activity android:name=".LcdLearnActivity" />
+        <activity android:name=".DescriptionLcd" />
+
+        <receiver android:name=".NerworkChangeReciever">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".DescriptionServo" />
+        <activity android:name=".RobotControl" />
+        <activity android:name=".Mq2_ControlActivity" />
+        <activity android:name=".Resetpassword" />
+        <activity android:name=".TemperatureFragment" />
+        <activity android:name=".DhtControl" />
+        <activity android:name=".LcdControlActivity" />
+        <activity android:name=".ServoContolActivity" />
+        <activity android:name=".ServoLearnActivity" />
+        <activity android:name=".DashbordLearn" />
+        <activity android:name=".ManipulationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ConfigActivity" />
+        <activity android:name=".Documentation" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".BackgroundSoundService" />
+    </application>
+
+</manifest>

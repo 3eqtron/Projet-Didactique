@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/design_default_color_primary_dark"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+   <com.jem.liquidswipe.LiquidSwipeViewPager
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/viewpager"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706289009576",
+    "project_id": "projetfinetude-271e9",
+    "storage_bucket": "projetfinetude-271e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706289009576:android:3cfc1090a787dc7e3f539d",
+        "android_client_info": {
+          "package_name": "com.example.horizondatacontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706289009576-0jg59nnghvstmlno8enmhj6kpo72t7kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNYXjqCq-UGlZj6gsRnQ4FPb1f3GV1vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706289009576-0jg59nnghvstmlno8enmhj6kpo72t7kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

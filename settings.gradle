@@ -1,0 +1,2 @@
+rootProject.name='HorizonDataControl'
+include ':app'

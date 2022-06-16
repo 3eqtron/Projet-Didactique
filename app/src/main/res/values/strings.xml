@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HDControl</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_main">Servomoto ESP8266</string>
+    <string name="sub_title_main">Firebase Java</string>
+    <string name="all">TODO</string>
+    <string name="grade_value">Position: 80°</string>
+    <string name="grade_90">90°</string>
+    <string name="grade_0">0°</string>
+    <string name="grade_180">180°</string>
+</resources>

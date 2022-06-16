@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+       android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        android:id="@+id/id1"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/nointernet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/tx1"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/id1"
+        android:text="vous n'êtes pas connecté à internet!"
+        android:gravity="center"/>
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFA000"
+        android:text="Réessayer"
+       android:layout_gravity="center"
+        android:layout_below="@id/tx1"
+
+        android:id="@+id/btncx"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
